@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,300;0,500;1,600;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-seri;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color:#B5D5C5;
+}
+#button{
+    background-color:#FF0032;
+    width: 12rem;
+    border-radius: 30px;
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:#FF0032 !important; 
+    padding: .5rem 3rem;
+}
+#navbarSupportedContent a{
+    color: #FCFFE7;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid;
+    color: #FF0032;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****Home*****/
+
+
+#home{
+    background: url(/images/im5.jpg)no-repeat;
+    background-size:cover ;
+    height: 100vh;
+    background-position: 50% 50%;
+    width:100%;
+    color: black;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p{
+    font-size: 25px;
+}   
+
+/*****About*****/   
+
+#about{
+    background-color: #FF0032;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#about p{
+    color: white;
+}
+
+/****product*****/
+
+#product{
+    background: #ECECEC;
+}
+#product h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product image{
+    width: 600px;
+    height: 400px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background:#ECECEC !important;
+    border: none !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+
+    
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+
+
